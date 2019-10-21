@@ -7,7 +7,7 @@ function gerar(){
     } else {
         let num = Number(txnum.value)
         let c = 1
-        tab.innerHTML = '' //Para limpar o select
+        tab.innerHTML = ''
         while (c <= 10) {
             let item = document.createElement('option')
             item.text = `${num} x ${c} = ${num * c}`
